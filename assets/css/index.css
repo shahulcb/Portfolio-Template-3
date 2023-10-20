@@ -13,26 +13,60 @@ body {
 }
 
 .about-section,
-.image-name-wrap {
+.image-name-wrap,
+.projects-grid {
     row-gap: 20px;
 }
-.name-wrap h2:first-child,.name-wrap h2:last-child{
+
+.name-wrap h2:first-child,
+.name-wrap h2:last-child {
     font-size: 40px;
     font-weight: 300;
 }
-.name-wrap h2:last-child{
+
+.name-wrap h2:last-child {
     font-weight: 500;
 }
-.about-note-wrap p{
+
+.about-note-wrap p {
     font-size: 16px;
     color: #6e7985;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
+
 .contact-btn {
     width: 150px;
     height: 50px;
     border-radius: 16px;
     border: none;
     box-shadow: #8cde934d 0px 0px 20px 0px;
+}
+
+.project-card {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.project-image {
+    background-color: rgba(167, 29, 29, 0.981);
+    height: 300px;
+    border-radius: inherit;
+}
+
+.project-body {
+    padding: 15px 25px;
+}
+
+.project-body p {
+    margin: 0;
+}
+.project-body P:first-child{
+    font-size: 18px;
+    font-weight: 500;
+}
+.project-body P:last-child{
+    color: #6e7985;
+    font-size: 16px;
+    font-weight: 400;
 }
