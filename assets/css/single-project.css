@@ -18,63 +18,50 @@ a{
 a:hover{
     color: inherit;
 }
-.about-section,
-.image-name-wrap,
-.projects-grid {
+nav{
+    background-color: #000;
+}
+
+.single-project-wrap{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     row-gap: 20px;
 }
 
-.name-wrap h2:first-child,
-.name-wrap h2:last-child {
+.single-project-heading{
+    margin-bottom: 20px;
+}
+.single-project-heading h2{
     font-size: 40px;
-    font-weight: 300;
-}
-
-.name-wrap h2:last-child {
     font-weight: 500;
-}
-
-.about-note-wrap p {
-    font-size: 16px;
-    color: #6e7985;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-}
-
-.contact-btn {
-    width: 150px;
-    height: 50px;
-    border-radius: 16px;
-    border: none;
-    box-shadow: #8cde934d 0px 0px 20px 0px;
-}
-
-.project-card {
-    width: 100%;
-    border-radius: 16px;
-}
-
-.project-image {
-    background-color: rgba(167, 29, 29, 0.981);
-    height: 300px;
-    border-radius: inherit;
-}
-
-.project-body {
-    padding: 15px 25px;
-}
-
-.project-body p {
     margin: 0;
 }
-.project-body P:first-child{
-    font-size: 18px;
-    font-weight: 500;
+
+.single-project-img{
+    height: 300px;
+    background-color: rgba(167, 29, 29, 0.981);
+    border-radius: 16px;
 }
-.project-body P:last-child{
-    color: #6e7985;
+
+.single-project-description{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 20px;
+}
+.single-project-description h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+}
+.single-project-description p{
     font-size: 16px;
     font-weight: 400;
+    color: #6e7985;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .contact-section{
@@ -92,4 +79,12 @@ a:hover{
     font-size: 16px;
     font-weight: 400;
     color: #6e7985;
+}
+
+.contact-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: #8cde934d 0px 0px 20px 0px;
 }
